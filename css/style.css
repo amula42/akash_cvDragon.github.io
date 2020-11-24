@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Convergence&display=swap');
+
+:root{
+	--color1 : #e5203e;
+	--color2 : #68284b;
+	--color3 : #ffffff;
+	--color4 : #000000;
+	--color5 : #f8d4d4;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Convergence', sans-serif;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+.navbar-brand img{
+	width: 18rem;
+}
+
+.navbar-nav li a{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	color: var(--color5) !important;
+	margin-left: 4rem;
+}
+
+.get_it_now{
+	background: var(--color1);
+    height: 4rem;
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+}
+
+.get_it_now a{
+	color: var(--color5);
+	font-size: 1.4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.nav_style{
+	background: transparent;
+	margin-top: 8.5rem;
+	position: absolute;
+	top: 0;
+	z-index: 1;
+}
+
+/*main part start*/
+.mainhead_sec{
+	position: relative;
+	background: var(--color2);
+	clip-path: polygon(49% 0, 100% 0, 100% 100%, 0 150%);
+	padding-top: 30rem;
+    padding-bottom: 7.5rem;
+}
+
+.join_sec h1{
+    font-size: 4rem;
+    color: var(--color4);
+    line-height: 3.5rem;
+}
+
+.join_sec span{
+	color: var(--color5);
+	font-style: italic;
+}
+
+.people{
+	color: var(--color5);
+	font-size: 1.8rem;
+	margin-top: 9rem;
+	line-height: 3.3rem;
+}
+
+.avaiable_app{
+	margin-top: 8.5rem;
+}
+
+.avaiable_app img{
+	height: 5.5rem;
+	width: 17rem;
+}
+
+.main_phone img{
+	left: 24%;
+	top: 360%;
+	position: absolute;
+}
+
+/*about section css*/
+.about_sec{
+	background: var(--color1);
+	position: relative;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+	z-index: 999;
+}
+
+.title h1{
+	color: var(--color3);
+	font-size: 3.5rem;
+	margin: auto;
+}
+
+.get_it{
+	background: var(--color2);
+    height: 4rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+
+.get_it a{
+	color: var(--color5);
+	font-size: 1.4rem;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.img_carousel img{
+	height: 40rem;
+}
+
+/*quote section css*/
+.quote_sec{
+	background: var(--color2);
+	position: relative;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.quote_title p{
+	color: var(--color4);
+	margin-top: 3.5rem;
+	font-size: 1.4rem;
+	line-height: 1.5rem;
+}
+
+.dwsignowl{
+	background: var(--color3);
+	height: 22rem;
+	border-radius: 5px;
+	line-height: 3.3rem;
+	position: relative;
+	width: 94%;
+	margin-left: auto;
+}
+
+.dwsignowl::before{
+    content: " ";
+    position: absolute;
+    border-top: 2rem solid transparent;
+    border-left: 2rem solid #fff;
+    border-bottom: 2rem solid #fff;
+    border-right: 2rem solid transparent;
+    top: 25%;
+    left: -4%;
+    transform: rotate(45deg);
+}
+
+.dwsignowl p{
+	color: var(--color4);
+	font-size: 1.4rem;
+}
+
+.dwsignowl span{
+	color: var(--color5);
+}
+
+.quote_sect{
+	margin-top: 13rem;
+}
+
+.quote_phn figure{
+	position: absolute;
+}
+
+#owl_carousel1{
+	margin-top: 5rem;
+}
+
+/*start joinUs css*/
+.joinUs_sec{
+	background: var(--color1);
+	position: relative;
+	padding-top: 10rem;
+	padding-bottom: 10rem;
+}
+
+.joinUs_title p{
+	color: var(--color5);
+	margin-top: 3rem;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+.mail_sec{
+	height: 4rem;
+	font-size: 1.4rem;
+	margin-top: 6.5rem;
+}
+
+.your_mail{
+	background: #d78390;
+	outline: none;
+
+}
+
+.send{
+	background: var(--color3);
+	color: var(--color1);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*footer css*/
+.footer_sec{
+	background: var(--color3);
+	position: relative;
+	padding-top: 6.5rem;
+	padding-bottom: 4.5rem;
+}
+
+.footer_sec p{
+	font-size: 1.4rem;
+	margin-top: 1rem;
+}
+
+.footer_sec p a{
+	text-decoration: none;
+	color: var(--color2);
+}
